@@ -1,1 +1,21 @@
-/*# sourceMappingURL=style.css.map */
+.mobile-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  grid-column: 1/6;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+main h2 {
+  grid-column: 1/7;
+  text-align: center;
+  font-size: 30px;
+}
+main .cta-wrapper {
+  grid-column: 1/7;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
